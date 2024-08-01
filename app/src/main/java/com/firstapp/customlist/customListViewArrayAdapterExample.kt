@@ -1,6 +1,5 @@
 package com.firstapp.customlist
 
-import android.graphics.ColorSpace
 import android.os.Bundle
 import android.view.View
 import android.widget.AdapterView
@@ -22,14 +21,43 @@ class customListViewArrayAdapterExample : AppCompatActivity() {
         list.add(Model("Snapchat", "Image sharing application", R.drawable.snapchat))
         list.add(Model("LinkedIn", "Professional social application", R.drawable.linkedin))
         list.add(Model("X", "Blog sharing application", R.drawable.x))
+        list.add(Model("Abdul Moid", "A B.tech CSE student", R.drawable.moid))
+
+        list.add(Model("Snapchat", "Image sharing application", R.drawable.snapchat))
+        list.add(Model("LinkedIn", "Professional social application", R.drawable.linkedin))
+        list.add(Model("X", "Blog sharing application", R.drawable.x))
+        list.add(Model("Abdul Moid", "A B.tech CSE student", R.drawable.moid))
+
+        list.add(Model("Snapchat", "Image sharing application", R.drawable.snapchat))
+        list.add(Model("LinkedIn", "Professional social application", R.drawable.linkedin))
+        list.add(Model("X", "Blog sharing application", R.drawable.x))
+        list.add(Model("Abdul Moid", "A B.tech CSE student", R.drawable.moid))
+
+
 
 
         listView.adapter = MyAdapter(this, R.layout.listviewrow, list)
 
         listView.setOnItemClickListener { parent: AdapterView<*>, view: View, position: Int, id: Long ->
-            if(position == 0) {
-                Toast.makeText(applicationContext, "Snapchat", Toast.LENGTH_LONG).show();
-            }
+
+//            if(position == 0) {
+//                Toast.makeText(applicationContext, "Snapchat", Toast.LENGTH_LONG).show();
+//            }
+//
+//            if(position == 1) {
+//                Toast.makeText(applicationContext, "LinkedIn", Toast.LENGTH_SHORT).show();
+//            }
+//
+//            if(position == 2) {
+//                Toast.makeText(applicationContext, "X", Toast.LENGTH_SHORT).show();
+//            }
+
+            val adapter = listView.adapter as MyAdapter;
+            val itemData = adapter.getItem(position) as Model;
+            val title = itemData.title
+
+            Toast.makeText(applicationContext, title, Toast.LENGTH_SHORT).show();
+
         }
 
     }
