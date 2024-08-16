@@ -21,17 +21,29 @@ class customListViewArrayAdapterExample : AppCompatActivity() {
         list.add(Model("Snapchat", "Image sharing application", R.drawable.snapchat))
         list.add(Model("LinkedIn", "Professional social application", R.drawable.linkedin))
         list.add(Model("X", "Blog sharing application", R.drawable.x))
+<<<<<<< HEAD
         list.add(Model("Abdul Moid", "A B.tech CSE student", R.drawable.snapchat))
+=======
+        list.add(Model("Abdul Moid", "A B.tech CSE student", R.drawable.moid))
+>>>>>>> b5f46f578442f4582d558e3942e65712bc21ae75
 
         list.add(Model("Snapchat", "Image sharing application", R.drawable.snapchat))
         list.add(Model("LinkedIn", "Professional social application", R.drawable.linkedin))
         list.add(Model("X", "Blog sharing application", R.drawable.x))
+<<<<<<< HEAD
         list.add(Model("Abdul Moid", "A B.tech CSE student", R.drawable.snapchat))
+=======
+        list.add(Model("Abdul Moid", "A B.tech CSE student", R.drawable.moid))
+>>>>>>> b5f46f578442f4582d558e3942e65712bc21ae75
 
         list.add(Model("Snapchat", "Image sharing application", R.drawable.snapchat))
         list.add(Model("LinkedIn", "Professional social application", R.drawable.linkedin))
         list.add(Model("X", "Blog sharing application", R.drawable.x))
+<<<<<<< HEAD
         list.add(Model("Abdul Moid", "A B.tech CSE student", R.drawable.snapchat))
+=======
+        list.add(Model("Abdul Moid", "A B.tech CSE student", R.drawable.moid))
+>>>>>>> b5f46f578442f4582d558e3942e65712bc21ae75
 
 
 
