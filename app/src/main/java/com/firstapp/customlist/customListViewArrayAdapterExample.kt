@@ -45,9 +45,6 @@ class customListViewArrayAdapterExample : AppCompatActivity() {
 //        list.add(Model("Abdul Moid", "A B.tech CSE student", R.drawable.moid))
 
 
-
-
-
         listView.adapter = MyAdapter(this, R.layout.listviewrow, list)
 
         listView.setOnItemClickListener { parent: AdapterView<*>, view: View, position: Int, id: Long ->
