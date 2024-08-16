@@ -1,8 +1,6 @@
 <resources>
     <string name="app_name">Custom List</string>
-<<<<<<< HEAD
+
     <string name="version_name">Version name</string>
     <string name="version">Version</string>
-=======
->>>>>>> b5f46f578442f4582d558e3942e65712bc21ae75
 </resources>

@@ -13,7 +13,7 @@
         android:theme="@style/Theme.CustomList"
         tools:targetApi="31">
 
-<<<<<<< HEAD
+
 <!--        <activity-->
 <!--            android:name=".RecyclerViewExampleOne"-->
 <!--            android:exported="false" />-->
@@ -31,20 +31,14 @@
         <activity
             android:name=".customListViewArrayAdapterExample"
             android:exported="false" />
+
         <activity
             android:name=".RecyclerViewExampleOne"
-            android:exported="true">
-=======
-        <activity
-            android:name=".customListViewArrayAdapterExample"
             android:exported="true" >
->>>>>>> b5f46f578442f4582d558e3942e65712bc21ae75
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-<<<<<<< HEAD
         </activity>
 
 
@@ -59,22 +53,19 @@
             <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
             <!-- </intent-filter> -->
 
-=======
-
 
         </activity>
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
+
+<!--        <activity-->
+<!--            android:name=".MainActivity"-->
+<!--            android:exported="true">-->
 <!--            <intent-filter>-->
 <!--                <action android:name="android.intent.action.MAIN" />-->
 
 <!--                <category android:name="android.intent.category.LAUNCHER" />-->
 <!--            </intent-filter>-->
 
-
->>>>>>> b5f46f578442f4582d558e3942e65712bc21ae75
-        </activity>
+<!--        </activity>-->
     </application>
 
 </manifest>
