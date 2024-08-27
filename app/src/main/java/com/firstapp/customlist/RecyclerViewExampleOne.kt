@@ -58,5 +58,4 @@ class RecyclerViewExampleOne : AppCompatActivity() {
         arrayList.add(LinearPojo("Alpha", "1.0"))
 
     }
-
 }
